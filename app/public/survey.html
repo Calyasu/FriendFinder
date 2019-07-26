@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+
+
+    <title>Friends Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr>
+
+        <h3><strong>About You</strong></h3>
+        <h4>Name [Required]</h4>
+        <input type="text" name="" id="photo" class="form-control" required>
+
+        <hr>
+
+        <h3><strong>Question 1</strong></h3>
+        <h4>Do you love lalafels.</h4>
+        <select data-placeholder="" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>Do you love big explosions and stuff?</h4>
+        <select data-placeholder="" class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>Would you protect your friends in time of need?</h4>
+        <select data-placeholder="" class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>Are you a reasonabble person?</h4>
+        <select data-placeholder="" class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>Do you learn from your mistake?</h4>
+        <select data-placeholder="" class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>Everyday you struggle, yet people thinks so little of you</h4>
+        <select data-placeholder="" class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>You're a selfless who everyone could rely on you.</h4>
+        <select data-placeholder="" class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>You keep secrets from your friend even though it will help them in a long run</h4>
+        <select data-placeholder="" class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>The things you do matters even though at the time it doesn't seem like it</h4>
+        <select data-placeholder="" class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You love socializing</h4>
+        <select data-placeholder="" class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">1. Strongly Disagree</option>
+            <option value="2">2. Slightly Disagree</option>
+            <option value="3">3. Slightly Agree</option>
+            <option value="4">4. Strongly Agree</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i
+                aria-hidden="true"></i>Submit</button>
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="resultModal">
+                submit
+            </button> -->
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="resultsModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><strong>Best Match</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="Place holder" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        var config = {
+            '.chosen-select': {},
+            '.chosen-select-deselect': { allow_single_deselect: true },
+            '.chosen-select-no-single': { disable_search_threshold: 10 },
+            '.chosen-select-no-results': { no_results_text: 'Oops, nothing found!' },
+            '.chosen-select-width': { width: "95%" }
+        }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+
+        $("#submit").on("click", function () {
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+                };
+
+                var currentURL = window.location.origin;
+
+                $.post(currentURL + "/api/friends", userData, function (data) {
+                    $("#matchName").text(data.name);
+                    $("#matchImg").attr("src", data.photo);
+                    $("#resultsModal").modal("toggle");
+                });
+            }
+            else {
+                alert("alert!");
+            }
+            return false;
+        });
+
+    </script>
+</body>
+
+</html>
